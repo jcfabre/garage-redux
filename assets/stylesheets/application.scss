@@ -1,4 +1,47 @@
-.app {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.car-index {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  .left-part {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+
+    .garage-image {
+      width: 50%;
+    }
+  }
+
+  .right-part {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .car-image {
+      width: 50%;
+    }
+    .car-show-image {
+      width: 70%;
+    }
+    .car-render {
+      width: 60vh;
+      flex-wrap: wrap;
+      margin: 5px;
+      padding: 5px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      border: 2px solid black;
+    }
+    .plate {
+      border: 1px solid grey;
+    }
+  }
 }
